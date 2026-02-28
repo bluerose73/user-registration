@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "user-registration"
+version = "0.1.0"
+description = "A user registration package"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
